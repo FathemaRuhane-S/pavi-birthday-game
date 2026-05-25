@@ -71,6 +71,9 @@ button{
     display:none;
     object-fit:cover;
     box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+    margin:auto;
+    
 }
 
 #birthdayText{
@@ -247,6 +250,8 @@ function checkWin(){
             document.getElementById("birthdayText").style.display="block";
 
             document.getElementById("funnyImage").style.display="block";
+
+            document.getElementById("funnyImage").style.margin="auto";
 
             playMusic.pause();
 
